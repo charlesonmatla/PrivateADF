@@ -1,0 +1,9 @@
+{
+	"name": "dfygfd",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9bd1dba2-8470-4300-bf16-84b31529d512",
+		"tenantId": "4d3af879-e659-4903-88d8-44744cc1d2e5"
+	}
+}
