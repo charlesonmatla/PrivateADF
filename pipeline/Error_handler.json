@@ -1,0 +1,11 @@
+{
+	"name": "Error_handler",
+	"properties": {
+		"parameters": {
+			"Pipelinename": {
+				"type": "string"
+			}
+		},
+		"annotations": []
+	}
+}
