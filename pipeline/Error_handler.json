@@ -12,7 +12,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"variableName": "",
+					"variableName": "ErrorJson",
 					"value": ""
 				}
 			}
@@ -20,6 +20,11 @@
 		"parameters": {
 			"Pipelinename": {
 				"type": "string"
+			}
+		},
+		"variables": {
+			"ErrorJson": {
+				"type": "String"
 			}
 		},
 		"annotations": []
