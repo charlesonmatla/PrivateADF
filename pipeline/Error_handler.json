@@ -40,7 +40,8 @@
 		},
 		"variables": {
 			"ErrorJson": {
-				"type": "String"
+				"type": "String",
+				"defaultValue": "concat(   '{',     '\"pipeline\":\"', pipeline().parameters.PipelineName, '\",',     '\"activity\":\"', pipeline().parameters.ActivityName, '\",',     '\"error\":\"', pipeline().parameters.ErrorMessage, '\",',     '\"errorCode\":\"', pipeline().parameters.ErrorCode, '\",',     '\"fileName\":\"', pipeline().parameters.FileName, '\",',     '\"runId\":\"', pipeline().parameters.RunID, '\",',     '\"time\":\"', utcNow(), '\"',   '}' )"
 			}
 		},
 		"annotations": []
