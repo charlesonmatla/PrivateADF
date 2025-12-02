@@ -3,20 +3,6 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Set_variable1",
-				"type": "SetVariable",
-				"dependsOn": [],
-				"policy": {
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"variableName": "ErrorJson",
-					"value": ""
-				}
-			},
-			{
 				"name": "Data flow1",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
